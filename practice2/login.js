@@ -11,6 +11,11 @@
     //     "Hardeep":"1234",
     //     "Raman":"555"
     // }
+
+    //Raiden
+    var isCredValid = false;
+    //Raiden
+
     console.log(attempt)
     function validate()
     {
@@ -18,17 +23,21 @@
         var inputPassword=document.getElementById("pass").value;
         console.log(username);
        
-        var checkUser;
-        var checkPass;
-        for(var i=0;i<2;i++)
+        //Raiden
+        //var checkUser;
+        //var checkPass;
+        //for(var i=0;i<2;i++) //Why hardcoded 2?
+        for(var i=0;i<userList.users.length;i++)
         {
             console.log(i)
             user=userList.users[i].userName;
             pass=userList.users[i].keyPassword;
             if(user==username && pass==inputPassword)
             {
-                checkUser=user
-                checkPass=pass
+                //Raiden
+                //checkUser=user
+                //checkPass=pass
+                isCredValid = true;
                 break;
             }
            
@@ -39,7 +48,9 @@
         // var checkPass=userList.users["+password+"].passWord;
        
         console.log(i)    
-        if(checkUser!=null && checkPass!=null)
+        //Raiden
+        //if(checkUser!=null && checkPass!=null)
+        if(isCredValid)
         {
             alert("Successfully Login");
             return false;   
