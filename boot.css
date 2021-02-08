@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding:0;
+    overflow:hidden
+}
+
+.main{
+    background-color: aqua;
+    height: 200px;
+    
+}
+.section-conatainer{
+    display:flex;
+}
+.section1{
+    flex:1;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    height: 5;
+}
+.sub1{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+}
+.container-fluid{
+   background-color: rgb(155, 214, 95);
+}
+.container{
+    background-color: coral;
+}
+.sub2{
+    height: 200px;
+    width:300px;
+}

@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    overflow: hidden;
+    background: url(water.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.box{
+    width:300px;
+    padding: 6% 3%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    border-radius: 4%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+::placeholder{
+    color:rgb(204, 204, 204);
+}
+.box input[type="text"],input[type="password"] {
+    border:none;
+    background: none;
+    border: 3px solid rgb(84, 84, 224);
+    border-radius: 17px;
+    color: cornsilk;
+    margin:3%;
+    padding: 3%;
+    outline: none;
+}
+.box input[type="submit"] {
+    border:none;
+    background: none;
+    border: 3px solid rgb(219, 209, 63);
+    border-radius: 17px;
+    color: cornsilk;
+    margin:3%;
+    padding: 3%;
+    outline: none;
+}

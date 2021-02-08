@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    background-image: url("../../darkpink_Wallpaper.jpg");
+    /* opacity:0.2; */
+    background-size: cover;
+    z-index: -1; 
+    /* ? */
+}
+.container{
+    background-color: rgb(233, 150, 122,0.3);
+    position: relative;
+    padding: 7% 5%;
+    top:60px;
+    border-radius: 8px;
+    /* margin: 2px 20%; */
+    text-align: center;  
+}
+.d-grid{
+    background-color: rgb(189, 54, 8,0.4);
+    position: relative;
+    padding: 11% 0;
+    color:rgb(245, 245, 245);
+    border-radius: 9px;
+    /* margin: 2%;     */
+}
+input[type="text"],input[type="PASSWORD"]{
+    /* padding: 3% 4%; */
+    border-radius: 8px;
+    border:none;
+    color: rgb(247, 245, 242);
+    background-color: #810027;
+}
